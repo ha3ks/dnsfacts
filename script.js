@@ -1,5 +1,5 @@
 function genQuote() {
-  var randNum = Math.floor(Math.random() * 6) + 1;
+  var randNum = Math.floor(Math.random() * 10) + 1;
   document.getElementById('quote').innerHTML = quotes[randNum];
 }
 
