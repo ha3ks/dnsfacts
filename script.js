@@ -1,0 +1,7 @@
+function genQuote() {
+  var randNum = Math.floor(Math.random() * 8) + 1;
+  document.getElementById('quote').innerHTML = quotes[randNum];
+}
+
+//quote array
+var quotes = ["Blank", "\"In Ghostbusters (1984) the laser containment grid designed and built by Egon and Ray was the inspiration for the DNS system used by modern day internet.\"<br>", "\"In The Mummy (1999) starring Brandan Fraser and Rachel Weisz, Rick and Evelyn's chemistry was so strong because even back in the 1920's they beleived DNS would slove everything.\"<br>", "\"In the 2016 CW Television series 'DC Legends of Tomorrow', Time Master Rip Hunter traveled from the distant future to recruit Superheros and Villains from earth history who would not be 'missing from the timeline' so that they could implement proper DNS security to stop Vandal Savage from taking over the internet with is Snake Oil.\"<br>", "\"The Island in the television show 'Lost' was nicknamed DNS because of a 'Dark Non-human Shadow' creature that stalked any humans, or to liken it to modern day technology, data packets, and killed them... or something. I'm not sure because I dropped off after a few episodes, something about 'not Pennys boat and the entire thing was purgatory'\"<br>", "\"When setting up a brand new Windows Computer and progressing through the Microsoft Out Of Box (OOB) experience, if you click 'No' for using Cortana, God kills a DNS\"<br>", "\"Every time you exit VIM on the first try, God kills a DNS\"<br>",];
